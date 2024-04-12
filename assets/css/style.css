@@ -2523,6 +2523,7 @@ li {
 .bg-cover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  background-image: radial-gradient(circle, rgba(27,27,27,0.2) 25%, rgba(253,187,45,0) 100%), url("../img/backgrounds/bg-large.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -2660,9 +2661,9 @@ li {
   .heading-block {
     padding: 80px 0;
   }
-  .hero-heading-top {
+  /*.hero-heading-top {
     top: 30px;
-  }
+  }*/
   .fullwidth-column {
     padding: 50px 30px 35px;
   }
@@ -6970,9 +6971,9 @@ button[type="submit"] .loading {
 /* ----------------------------------------------------------------------------
     Theme styles
 ---------------------------------------------------------------------------- */
-.bg1 {
+/*.bg1 {
   background-image: url("../img/backgrounds/bg-large.jpg");
-}
+}*/
 .bg2 {
   background-image: url("../img/backgrounds/bg2.jpg");
 }
