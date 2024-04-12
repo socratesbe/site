@@ -22,15 +22,29 @@
 /* FONT PATH
  * -------------------------- */
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-  font-weight: normal;
+  font-family: 'FontAwesomeBrands';
   font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.ttf") format("truetype");
 }
-.fa {
-  display: inline-block;
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.ttf") format("truetype");
+}
+.fa-brands {
+  font: normal normal normal 14px/1 FontAwesomeBrands;
+}
+.fa-solid {
   font: normal normal normal 14px/1 FontAwesome;
+}
+
+.fa-solid,
+.fa-brands {
+  display: inline-block;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -2577,11 +2591,21 @@ li {
   right: 0;
 }
 .hero-heading-top {
-  top: 60px;
+  top: 150px;
 }
-.hero-heading-bottom {
+.hero-heading-top > * {
+  text-shadow: #616161 1px 1px 20px;
+}
+
+.hero-heading-top .heading {
+  background-color: #FFF;
+  padding: 5px 20px;
+  border-radius: 8px;
+  text-shadow: none;
+}
+/*.hero-heading-bottom {
   bottom: 40px;
-}
+}*/
 .img-column {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5224,8 +5248,9 @@ button[type="submit"] .loading {
     Socials navigation
 ---------------------------------------------------------------------------- */
 .socials-nav {
+  display: block;
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 0;
   right: 0;
   text-align: center;
