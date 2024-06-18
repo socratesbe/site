@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
-
     <meta charset="utf-8">
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
@@ -9,7 +8,7 @@
     <title>SoCraTes BE</title>
 
     <meta name="description" content="SoCraTes BE 2024, The unconference for software crafters, by software crafters">
-    <meta name="keywords" content="unconference, open space, belgium, unconference Belgium">
+    <meta name="keywords" content="unconference, open space, belgium, unconference Belgium, socrates, socratesbe">
     <meta name="author" content="SoCraTesBE">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
@@ -18,9 +17,10 @@
     <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
 
     <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css"/>
-    <link href="assets/css/lib/fa-brands.css" rel="stylesheet" />
-    <link href="assets/css/lib/fa-solid.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/brands.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/solid.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lib/fontawesome.css"/>
 
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -35,22 +35,20 @@
 
 <section id="hero" class="hero-section bg1 bg-cover window-height light-text">
     <ul class="socials-nav">
-        <li class="socials-nav-item"><a href="https://twitter.com/SoCraTes_BE" target="_blank" rel="noopener noreferrer"><span class="fa-brands fa-square-x-twitter"></span></a>
+        <li class="socials-nav-item"><a href="https://twitter.com/SoCraTes_BE" target="_blank" rel="noopener noreferrer"><i
+                class="fa-brands fa-square-x-twitter"></i></a>
         </li>
-        <li class="socials-nav-item"><a href="https://github.com/socratesbe/" target="_blank" rel="noopener noreferrer"><span
-                class="fa-brands fa-github"></span></a></li>
+        <li class="socials-nav-item"><a href="https://github.com/socratesbe/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        </li>
     </ul>
     <div class="hero-heading-top centered-block align-center">
-        <h3 class="container">
-            <h1 class="extra-heading">SoCraTes BE</h1>
-            <h2 class="thin base-font">Unconference</h2>
-            <h4 class="base-font"><span class="fa-solid fa-calendar-o base-clr-txt"></span>&nbsp;&nbsp;10 - 13 October 2024</h4>
-            <h3>
-                <strong class="highlight heading">SAVE THE DATE!</strong>
-            </h3>
-            <h3 class="thin base-font">For software crafters</h3>
-            <h3 class="thin base-font">By software crafters</h3>
-        </h3>
+        <h1 class="extra-heading">SoCraTes BE</h1>
+        <h2 class="thin base-font">Unconference</h2>
+        <h4 class="base-font"><i class="fa-solid fa-calendar" style="color: #fe4918"></i>&nbsp;&nbsp;10 - 13 October 2024</h4>
+        <h3 class="book-tickets-now"><a href="https://forms.gle/jYSJCegTAsnHxjS1A" target="_blank"><strong
+                class="highlight heading">Book your tickets NOW!</strong></a></h3>
+        <h3 class="thin base-font">For software crafters</h3>
+        <h3 class="thin base-font">By software crafters</h3>
     </div>
 </section>
 
@@ -72,10 +70,10 @@
             <div class="col-sm-10 col-xs-12 navigation-container">
                 <div id="navigation" class="navbar-collapse collapse">
                     <ul class="navigation-list pull-left light-text">
-<!--                        <li class="navigation-item"><a href="#schedule" class="navigation-link">Schedule</a></li>-->
+                        <!--<li class="navigation-item"><a href="#schedule" class="navigation-link">Schedule</a></li>-->
                         <li class="navigation-item"><a href="#gallery" class="navigation-link">Previous editions</a></li>
                         <li class="navigation-item"><a href="#sponsors" class="navigation-link">Sponsors</a></li>
-<!--                        <li class="navigation-item"><a href="#venue" class="navigation-link">Venue</a></li>-->
+                        <li class="navigation-item"><a href="#venue" class="navigation-link">Venue</a></li>
                         <li class="navigation-item"><a href="#coc" class="navigation-link">Code of conduct</a></li>
                     </ul>
 
@@ -89,7 +87,8 @@
     <div class="container">
         <span class="icon section-icon icon-multimedia-12"></span>
         <h3>Learn, share, practice</h3>
-        <p class="text-alt">Join us to learn, practice and discuss Software Engineering together with like-minded <span class="highlight">passionate software crafters</span>.
+        <p class="text-alt">Join us to learn, practice and discuss Software Engineering together with like-minded <span
+                class="highlight">passionate software crafters</span>.
         </p>
         <br/>
         <br/>
@@ -102,8 +101,14 @@
                 <li><a href="#horizontal_tab2" data-toggle="tab">
                     <h6 class="heading-alt"><span class="fa-solid fa-rocket"></span> Unconference</h6>
                 </a></li>
+                <li><a href="#horizontal_tab5" data-toggle="tab">
+                    <h6 class="heading-alt"><span class="fa-solid fa-eur"></span> Pricing</h6>
+                </a></li>
                 <li><a href="#horizontal_tab3" data-toggle="tab">
                     <h6 class="heading-alt"><span class="fa-solid fa-question-circle"></span> Questions</h6>
+                </a></li>
+                <li><a href="#horizontal_tab4" data-toggle="tab">
+                    <h6 class="heading-alt"><span class="fa-solid fa-external-link"></span> Overview</h6>
                 </a></li>
             </ul>
 
@@ -115,18 +120,18 @@
 
                     <div class="col-sm-7 align-left">
                         <p>The SoCraTes unconference is an event by and for passionate software crafters. It is an unconference where software crafters get
-                            together in order to learn, teach and discuss the topics that interest them. While having a very good time!</p>
+                           together in order to learn, teach and discuss the topics that interest them. While having a very good time!</p>
                         <br/>
                         <p>The goals of the unconference are to learn and share new ideas, techniques, programming languages and frameworks through coding
-                            dojos, pair programming, mob programming, group discussions, workshops, presentations and so on. You’ll also get to learn what other
-                            people are working on. All of this combined with as many interesting, informal conversations as possible.</p>
+                           dojos, pair programming, mob programming, group discussions, workshops, presentations and so on. You’ll also get to learn what other
+                           people are working on. All of this combined with as many interesting, informal conversations as possible.</p>
                         <br/>
                         <p>This is not a 9 to 5 conference. The learning, connecting and socializing only stops when you want it to stop. During breakfast,
-                            lunch and dinner you can freely mingle with all the participants and continue those interesting conversations. Well into the
-                            night.</p>
+                           lunch and dinner you can freely mingle with all the participants and continue those interesting conversations. Well into the
+                           night.</p>
                         <br/>
                         <p>So if you are passionate about software development this is definitely the unconference for you. Talk and socialize freely with many
-                            different passionate people who are willing to learn and share their knowledge and experience. </p>
+                           different passionate people who are willing to learn and share their knowledge and experience. </p>
                         <br/>
                     </div>
 
@@ -135,18 +140,18 @@
                 <div id="horizontal_tab2" class="tab-pane fade">
                     <div class="col-sm-7 align-right">
                         <p>The SoCraTesBE is an <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a>. This means it is a participant-driven
-                            meeting that tries to avoid hierarchical aspects of a conventional conference. Unlike a regular conference, there is no fixed
-                            agenda, no paid speakers, no fixed topics, no specific technology or methodology focus.</p>
+                           meeting that tries to avoid hierarchical aspects of a conventional conference. Unlike a regular conference, there is no fixed
+                           agenda, no paid speakers, no fixed topics, no specific technology or methodology focus.</p>
                         <br/>
                         <p>It is a self-organizing event, using <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">open space</a>, where the
-                            SoCraTesBE participants create the schedule on the fly, every day before the Open Space starts. This guarantees that the
-                            participants work around topics that truly interest them. So everyone gets back the value that they put into it.</p>
+                           SoCraTesBE participants create the schedule on the fly, every day before the Open Space starts. This guarantees that the
+                           participants work around topics that truly interest them. So everyone gets back the value that they put into it.</p>
                         <br/>
                         <p>The self created “schedule” is known as the marketplace. The marketplace is basically a map of timeslots and locations for sessions
-                            like in the picture. At the start of the day, when the marketplace is created, every participant that wants to can add a session.
-                            They typically give a short intro of the topic they want to discuss, present, work on or experiment with that day. After which it
-                            will be added to the marketplace. Once the marketplace is created the day sessions start. Where everyone is free to participate
-                            whatever sessions they want.
+                           like in the picture. At the start of the day, when the marketplace is created, every participant that wants to can add a session.
+                           They typically give a short intro of the topic they want to discuss, present, work on or experiment with that day. After which it
+                           will be added to the marketplace. Once the marketplace is created the day sessions start. Where everyone is free to participate
+                           whatever sessions they want.
                         </p>
                         <br/>
                     </div>
@@ -161,7 +166,7 @@
                     <div class="col-sm-7 align-left">
                         <h6>Who will be there?</h6>
                         <p>The SoCraTes unconference is a non-profit unconference. Everyone is attending and contributing on a voluntary basis. There are no
-                            paid speakers, no marketing driven paid sessions and no recruiters. But there will be <i>a lot</i> of <span class="highlight">highly experienced,
+                           paid speakers, no marketing driven paid sessions and no recruiters. But there will be <i>a lot</i> of <span class="highlight">highly experienced,
                                 passionate people</span> present.
                         </p>
                     </div>
@@ -173,9 +178,9 @@
                     <div class="col-sm-7 align-left">
                         <h6>Will it be interesting for me?</h6>
                         <p>Apart from a great atmosphere and connecting with other participants, you will definitely be able to learn a lot. Because it is a
-                            self organizing conference, you are able maximize the value you get by adding your own sessions to the marketplace and by being free
-                            to walk in and out of any sessions you want at any time. It is <span class="highlight">your conference</span>. You will get out of
-                            it, what you put in.</p>
+                           self organizing conference, you are able maximize the value you get by adding your own sessions to the marketplace and by being free
+                           to walk in and out of any sessions you want at any time. It is <span class="highlight">your conference</span>. You will get out of
+                           it, what you put in.</p>
                         <p>For example:</p>
                         <p><i>You want to learn a new technology or methodology?</i>
                             <br/>
@@ -202,8 +207,8 @@
                     <div class="col-sm-7 align-left">
                         <h6>What are typical sessions?</h6>
                         <p>We learn and share new ideas, techniques, languages and frameworks through coding dojos, pair programming, mob programming,
-                            groups discussions, presentations, informal conversations. Below are a couple of sessions from previous SoCraTes
-                            unconferences </p>
+                           groups discussions, presentations, informal conversations. Below are a couple of sessions from previous SoCraTes
+                           unconferences </p>
 
                         <ul style="list-style-type: circle">
                             <li>Structure and Interpretation of Computer Programs (SICP)</li>
@@ -225,8 +230,8 @@
                     <div class="col-sm-7 align-left">
                         <h6>Why does the conference overlap the weekend?</h6>
                         <p>We always run the conference from thursday evening to sunday morning. This seems like a fair division to us between employer and
-                            employee. The friday is the only working day when the participant will not be working for the company. The participant commits
-                            part of their weekend, demonstrating their eagerness to participate and learn.</p>
+                           employee. The friday is the only working day when the participant will not be working for the company. The participant commits
+                           part of their weekend, demonstrating their eagerness to participate and learn.</p>
                     </div>
                 </div>
 
@@ -236,91 +241,72 @@
                     </div>
                     <div class="col-sm-7 align-left">
                         <h6>About the event</h6>
-
-                        <p>This year's SoCraTes unconference runs from Thursday 9 November to Sunday 12 November 2023.
-                        </p>
+                        <p>This year's SoCraTes unconference runs from Thursday 10 October to Sunday 13 October 2024.</p>
                         <br/>
-                        <p>We’ll kick off Thursday evening with dinner at 7 PM. After dinner, around 8.30 PM, we will officially open the fourth edition of
-                            SoCraTes BE with a warm up session to get all the brains fired up. When the warm up session is finished, the floor is yours to
-                            continue the conversation, twist it around and branch it in every direction.
+                        <p>We’ll kick off Thursday evening with dinner at 7 PM. After dinner, around 8.30 PM, we will officially open the fifth edition of
+                           SoCraTes BE with a warm up session to get all the brains fired up. When the warm up session is finished, the floor is yours to
+                           continue the conversation, twist it around and branch it in every direction.
                         </p>
                         <br/>
                         <p>On Friday and Saturday, we’ll run the open space, in which every attendee is welcome and encouraged to propose talks, discussions,
-                            workshops or whatever else they choose to further every attendee’s knowledge and understanding of creating and maintaining
-                            software.</p><br/>
+                           workshops or whatever else they choose to further every attendee’s knowledge and understanding of creating and maintaining
+                           software.</p><br/>
                         <p>On Friday and Saturday evenings, attendees are encouraged to run social activities, from pair-programming to board games and
-                            everything in between.</p><br/>
-                        <p>The conference is officially over on Sunday the 12th November after breakfast.</p><br/>
+                           everything in between.</p><br/>
+                        <p>The conference is officially over on Sunday the 13th October after breakfast. You'll be home on time for the local Belgian elections</p>
+                        <br/>
                     </div>
                 </div>
 
                 <div id="horizontal_tab5" class="tab-pane fade">
                     <div class="col-sm-12 align-left">
                         <h3>Pricing</h3>
-                        <p>The price for attending the unconference 2023 is</p>
+                        <p>The price for attending the unconference 2024 is</p>
                         <ul style="list-style-type: circle; margin-left: 40px;   padding-left: 40px;">
-                            <li><b>760 euro VAT incl for Single room</b> (628.1 euro VAT excl)</li>
-                            <li><b>665 euro VAT incl for when you share a room</b> (550 euro VAT excl)</li>
+                            <li><b>470 euro VAT incl for Single room</b></li>
                         </ul>
-                        <p>This includes stay in the hotel for three days, all the meals, use of all the facilities and the open bar.</p>
+                        <p>This includes the stay in the hotel for three days, all the meals and the use of all the facilities</p>
+                        <p>The drinks you purchase at the bar in the evening are not included</p>
                         <p>The ticket has to be paid in full for a complete registration.</p>
-                        <br/>
-                        <h6 class="heading-alt">Changes from previous edition</h6>
-                        <p>The goal of the Socrates unconference is to learn, to connect and to have fun. Therefore, we have always aimed to keep our
-                            ticket prices affordable and accessible to everyone. At the same time we also want to provide a qualitative experience that everyone
-                            can enjoy.
-                            Therefore, we have made some changes this year that have had some impact on the pricing (apart from the inflation).</p>
-                        <ul style="list-style-type: circle; margin-left: 40px;   padding-left: 40px;">
-                            <li>We changed the venue to <a href="https://www.terelst.be/">Hotel Ter Elst</a></li>
-                            <li>For catering we have partnered with <a href="https://www.thyme-antwerp.be/">Thyme Antwerp</a> that offers us great service and
-                                flexibility
-                            </li>
-                            <li>We have introduced a <span class="highlight">fixed price for the entire conference</span> up front. This simplifies matters for
-                                all the parties involved in
-                                hosting the unconference.
-                            </li>
-                            <li>This year <span class="highlight">the drinks are included in the ticket price</span>. No additional surcharge upon checkout.
-                                This all-inclusive approach also aims to simplify matters.
-                            </li>
-                        </ul>
-                        <br/>
-                        <h6 class="heading-alt">Full transparency</h6>
-                        <p>For any further clarification on our pricing or its breakdown, please feel free to contact <a
-                                href="mailto:info@socratesbe.org">us</a>. We are
-                            committed
-                            to full transparency and are happy to provide any information you need. The current pricing already reflects the same sponsoring
-                            budget as last year
-                            that is used to lower the prices. Any extra budget that would be obtained this year will be used to reduce the ticket price next
-                            year, as any
-                            surplus from one year carries over to the next.</p>
-                        <p>Should the ticket price be a barrier for you, please don't hesitate to <a href="mailto:info@socratesbe.org">contact us</a>. We are
-                            here to assist you
-                            and address any concerns you may have.</p>
                         <br/>
                         <h3>Cancellation Policy</h3>
                         <h6 class="heading-alt">Cancelation</h6>
-                        <p>Cancellation can be performed by us if we are informed by the last day of the month in which your registration was performed. 
-                        We will not sent your registration to the hotel in this case. After it has been sent to the hotel we cannot guarantuee anything, and you will have to deal with the hotel directly.</p>
+                        <p>Cancellation can be performed by us if we are informed by the last day of the month in which your registration was performed.
+                           We will not sent your registration to the hotel in this case. After it has been sent to the hotel we cannot guarantuee anything, and you will have to deal with the hotel directly.
+                        </p>
+                        <br/>
                         <h3>Privacy Policy</h3>
                         <h6 class="heading-alt">Privacy</h6>
-                        <p>Transfer of invoicing & hotel stay related data
-                        As the hotel will provide the invoices directly, we will supply them with the necessary data for invoicing. 
+                        <p>
+                            Transfer of invoicing & hotel stay related data
+                            As the hotel will provide the invoices directly, we will supply them with the necessary data for invoicing.
 
-                        The hotel will also take care of the food, so we will provide them with the nutritional information from the registration form.
+                            The hotel will also take care of the food, so we will provide them with the nutritional information from the registration form.
 
-                        This means, all data that will enter there will be shared, by accepting the policy you agree with this.</p>
-                        <h6 class="heading-alt">Cancellation after 15th September 2023</h6>
+                            This means, all data that will enter there will be shared, by accepting the policy you agree with this.
+                        </p>
+                        <br/>
                         <h6 class="heading-alt">Ticket Transfer Option</h6>
-                        <p>In the event that you can no longer attend the conference after the cancellation deadline has passed, we offer assistance in finding
+                        <p>
+                            In the event that you can no longer attend the conference after the cancellation deadline has passed, we offer assistance in finding
                             a willing party to take over your ticket (reach out to the community). Please contact us as soon as possible to discuss this option.
-                            If no party is found, we will not be able to refund.</p>
+                            If no party is found, we will not be able to refund.
+                        </p>
+                        <br/>
                         <h6 class="heading-alt">Force Majeure Events</h6>
-                        <p>In case of circumstances beyond our control, such as the hotel going bankrupt or a COVID-like event affecting the conference, our
+                        <p>
+                            In case of circumstances beyond our control, such as the hotel going bankrupt or a COVID-like event affecting the conference, our
                             cancellation policy may be subject to change. Under such circumstances, refunds will be determined on a case-by-case basis,
                             depending on the severity and impact of the situation. While we will do our best to accommodate attendees' needs, we cannot
                             guarantee a full refund in these exceptional cases.
                             Please note that all refund requests and inquiries related to ticket transfers should be directed to <a
-                                    href="mailto:info@socratesbe.org">SoCraTesBe</a>. Our team will respond promptly and assist you with the necessary steps.
+                                href="mailto:info@socratesbe.org">SoCraTesBe</a>. Our team will respond promptly and assist you with the necessary steps.
+                        </p>
+                        <br/>
+                        <h3>Book tickets</h3>
+                        <h6 class="heading-alt">Join SoCraTes 2024!</h6>
+                        <p>
+                            Reserve your tickets today via <a href="https://forms.gle/jYSJCegTAsnHxjS1A" target="_blank">this Google Form</a>!
                         </p>
                     </div>
 
@@ -338,13 +324,29 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="testimonial">
+                    <article class="text-box">Best conference yet and I have to confess there will be a little more hesitancy from my side about going to a non
+                                              open-space conference in the future! Special thanks to all the organizers, it was super smooth and action was taken immediately to make
+                                              it even better as we went along. Few more kudos that stuck in my mind: to
+                                              Erik for the respons-a-bility keyword and literature that I can use, session still resonates so much. To Enver and Karel for doing the
+                                              codespaces session - we laughed so hard and loud I’m sure the whole hotel heard us :) and to
+                                              Stephane for the session on climate change - you inspired me to activate my network and look for a nonprofit or project I can help with
+                                              to pay it forward. Love you all :)
+                    </article>
+                    <div class="author-block">
+                        <strong class="name">Bojan</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="testimonial">
                     <article class="text-box">As a first-time participant, the Socrates.be unconference surpassed all my expectations and gave me more energy
-                        and inspiration than any other learning format I tried so far.
-                        The wealth of topics and discussions (team dynamics, personal development, environment, mats and of course a lot of tech), left me
-                        wishing I could clone myself to fully absorb it all.
-                        And if you wonder is such an open space format without agenda upfron works in practice? The (self-)organisation worked seamlessly,
-                        making the entire experience fantastic to be a part of :)
-                        Looking forward to socratesbe 2024 already!
+                                              and inspiration than any other learning format I tried so far.
+                                              The wealth of topics and discussions (team dynamics, personal development, environment, mats and of course a lot of tech), left me
+                                              wishing I could clone myself to fully absorb it all.
+                                              And if you wonder is such an open space format without agenda upfron works in practice? The (self-)organisation worked seamlessly,
+                                              making the entire experience fantastic to be a part of :)
+                                              Looking forward to socratesbe 2024 already!
                     </article>
                     <div class="author-block">
                         <strong class="name">Toon</strong>
@@ -355,12 +357,12 @@
             <div class="col-sm-4">
                 <div class="testimonial">
                     <article class="text-box">This was my first Socrates unconference, so I went in without expectations and with an open mind. What I
-                        experienced was mind blowing (knowledge-, inspiration- and togetherness-wise). Thank you all for making this first experience a great
-                        one.
+                                              experienced was mind blowing (knowledge-, inspiration- and togetherness-wise). Thank you all for making this first experience a great
+                                              one.
                         <br/>
                         <br/>
                         <br/>
-                        “One of the marvelous things about community is that it enables us to welcome and help people in a way we couldn't as individuals.”
+                                              “One of the marvelous things about community is that it enables us to welcome and help people in a way we couldn't as individuals.”
                     </article>
                     <div class="author-block">
                         <strong class="name">Tino</strong>
@@ -368,28 +370,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="testimonial">
-                    <article class="text-box">Best conference yet and I have to confess there will be a little more hesitancy from my side about going to a non
-                        open-space conference in the future! Special thanks to all the organizers, it was super smooth and action was taken immediately to make
-                        it even better as we went along. Few more kudos that stuck in my mind: to
-                        Erik for the respons-a-bility keyword and literature that I can use, session still resonates so much. To Enver and Karel for doing the
-                        codespaces session - we laughed so hard and loud I’m sure the whole hotel heard us :) and to
-                        Stephane for the session on climate change - you inspired me to activate my network and look for a nonprofit or project I can help with
-                        to pay it forward. Love you all :)
-                    </article>
-                    <div class="author-block">
-                        <strong class="name">Bojan</strong>
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-sm-4">
                 <div class="testimonial">
                     <article class="text-box">Thank you for a fantastic event! I arrived with a mindset that code is just a tool and I have to learn to use it
-                        better. I'm leaving with appreciation for how beautiful it can be and a desire to be able to make it so myself. A big shift from "have
-                        to" to "wish to" that I didn't expect, but I like it.
+                                              better. I'm leaving with appreciation for how beautiful it can be and a desire to be able to make it so myself. A big shift from "have
+                                              to" to "wish to" that I didn't expect, but I like it.
                     </article>
                     <div class="author-block">
                         <strong class="name">Gabrijela</strong>
@@ -399,8 +386,19 @@
 
             <div class="col-sm-4">
                 <div class="testimonial">
+                    <article class="text-box">The 2023 edition of SocratesBE marked the culmination of an era, signaling the last occurrence for certain
+                                              aspects, yet simultaneously heralding great times that promise exciting new beginnings.
+                    </article>
+                    <div class="author-block">
+                        <strong class="name">ChatGPT</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="testimonial">
                     <article class="text-box">Thank you all for a fantastic couple of days, although if I had my way we’d still be in the conference centre
-                        arguing over those €55. Hope to see you again next year.
+                                              arguing over those €55. Hope to see you again next year.
                     </article>
                     <div class="author-block">
                         <strong class="name">Duncan</strong>
@@ -408,16 +406,6 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="testimonial">
-                    <article class="text-box">The 2023 edition of SocratesBE marked the culmination of an era, signaling the last occurrence for certain
-                        aspects, yet simultaneously heralding great times that promise exciting new beginnings.
-                    </article>
-                    <div class="author-block">
-                        <strong class="name">ChatGPT</strong>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -625,25 +613,13 @@
                     </div>
             </span>
         </div>
-</section>
-
-<section id="schedule" class="section align-center">
-
-</section>
-
-<section id="register" class="section overlay overlay-clr bg-cover bg4 light-text align-center">
-    <div class="container">
-        <h2>SocratesBE 2024 is coming</h2>
-        <p>The 2023 edition was a great event. Hope to see you all for the 2024 edition!</p>
-        <br/>
-        <br/>
     </div>
 </section>
 
-<section id="gallery" class="section align-center">
+<section id="gallery" class="section bg-cover overlay bg4 align-center">
     <div class="container">
         <span class="icon section-icon icon-badges-votes-01"></span>
-        <h3>Previous events</h3>
+        <h3 class="highlight heading">Previous events</h3>
         <p class="text-alt">You can find a small report of the 2022 edition <a href="https://www.tripled.io/10/07/2022/Socrates22/">here</a>.</p>
         <p class="text-alt">A great way to learn what it is all about is to join us at one of our regular <a
                 href="https://www.meetup.com/socratesbe/">meetups</a></p>
@@ -994,75 +970,6 @@
     </div>
 </section>
 
-<section id="feedback" class="section align-center" style="padding-top: 25px;">
-    <div class="container">
-        <h5 class="heading-alt">TESTIMONIALS</h5>
-        <p class="text-alt" style="margin-bottom: 80px;">what people <span class="highlight">say</span></p>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="testimonial">
-                    <article class="text-box">The Socrates conference is a great way to meet a wide variety of highly motivated software professionals.
-                        You can use them to bounce your ideas of, get feedback on your solutions or simply learn from them. Everything software related can be
-                        debated.
-                        You can create the topics you want to debate, you can join in on a wide variety of other peoples topics. Or you can just code. In pair,
-                        mob or alone.
-                        You are in charge of your own time, which allows you to get the best experience that fits your needs.
-                        It is in a small enough group to allow for a great atmosphere. And a large enough group to guarantee many interesting discussions.
-                        From dawn until well into the night.
-                        <br>
-                        <br>
-                        Did I mention there was a Whiskey bar?
-                    </article>
-                    <div class="author-block">
-                        <strong class="name">Guido Dechamps</strong>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="testimonial">
-                    <article class="text-box">Whiskey tasting, psychological experiments, PowerPoint karaoke, but most of all: amazing and awesome sessions,
-                        talks and discussions that give you heaps of inspiration.
-                        <br><br>Some things that you can use immediately, some things that you have to
-                        ponder upon for a year,... <br>So that you can start the next Socrates Belgium conference with great and improved ideas.
-                        I can't wait for the next one!
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </article>
-                    <div class="author-block">
-                        <strong class="name">Thomas Coopman</strong>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="testimonial">
-                    <article class="text-box">The best conference of the year! I had absolute no idea what to expect from this conference. I had heard about
-                        the open space format, but I was rather sceptical. The first day opened my eyes to the whole concept. Plenty of amazing people with
-                        different experiences and different points of view. A lot of interesting sessions about different technologies, old an new techniques
-                        and practices. The discussions between sessions were as challenging as the sessions themselves. I tend to prefer this kind of high
-                        collaboration conference to the more traditional ones, where the information is mostly unidirectional. You can say I've been spoiled,
-                        but in a good way.
-                        <br>
-                        <br>
-                        <br>
-                    </article>
-                    <div class="author-block">
-                        <strong class="name">Michel Grootjans</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
 <section id="sponsors" class="section align-center">
     <div class="container">
         <span class="icon section-icon icon-badges-votes-13"></span>
@@ -1087,10 +994,16 @@
     <div class="container">
         <span class="icon section-icon icon-emoticons-25"></span>
         <h3>Sponsorship opportunities</h3>
+        <div><p class="text-alt">The SocratesBE is a non profit. There is no commercial aspect to organising this conference, we do it because we are passionate
+                                 about it.
+                                 Therefore we try to keep the price of the conference low. Since there are no paid speakers, the cost of the conference is your stay, the food and
+                                 the venue. Sponsoring
+                                 the conference helps directly keeping the price of the conference low, directly reducing the cost of the venue on each individual ticket.</p>
+        </div>
         <br/>
         <br/>
-        <div class="row">
-            <div class="col-sm-5">
+        <div class="row sponsor-packages">
+            <div class="sponsor-package">
                 <div class="package-column special-column">
                     <h6 class="package-title">Standard sponsor package</h6>
                     <div class="package-price">
@@ -1101,17 +1014,17 @@
                             <li><span class="fa-solid fa-check check-icon"></span>Your logo on our website</li>
                             <li><span class="fa-solid fa-check check-icon"></span>Your merchandise at the conference</li>
                             <li><span class="fa-solid fa-check check-icon"></span>A big thank you on social media, all mailings, and at the start and end of
-                                conference
+                                                                                  conference
                             </li>
                             <li><span class="fa-solid fa-check check-icon"></span>Your logo on our exclusive merchandise</li>
                         </ul>
                     </div>
-                    <a href="mailto:info@socratesbe.org" class="btn btn-lg">Contact us</a>
+                    <a href="mailto:info@socratesbe.org" class="btn btn-lg btn-outline-clr">Contact us</a>
                 </div>
             </div>
 
-            <div class="col-sm-5">
-                <div class="package-column">
+            <div class="sponsor-package">
+                <div class="package-column special-column">
                     <h6 class="package-title">Customised sponsor package</h6>
                     <div class="package-price">
                         <span class="currency"></span>?
@@ -1119,7 +1032,7 @@
                     <div class="package-detail">
                         <ul>
                             <li><span class="fa-solid fa-check check-icon"></span>Do you have another idea for sponsoring our event and want to discuss more
-                                customised options, we are open to have a chat about this.
+                                                                                  customised options, we are open to have a chat about this.
                             </li>
                         </ul>
                     </div>
@@ -1132,7 +1045,26 @@
 </section>
 
 <section id="venue">
+    <div class="contacts-wrapper">
+        <div id="contacts-map" class="map" data-settings="map-settings.json" style="height:560px;"></div>
 
+        <div class="container contacts-on-map-container">
+            <div class="contacts-on-map">
+                <h3>Location</h3>
+
+                <ul class="list">
+                    <li><i class="fa-solid fa-location-dot"></i><a href="https://www.florealgroup.be/nl/vakantiepark/floreal-la-roche-en-ardenne"> Floreal La
+                                                                                                                                                   Roche-En-Ardenne
+                                                                                                                                                   Av. de Villez 6, 6980 La Roche-en-Ardenne</a>
+                    </li>
+                    <li><i class="fa-solid fa-route"></i>
+                        <a href="https://www.google.com/maps/dir//Floreal+La+Roche-En-Ardenne+Av.+de+Villez+6+6980+La+Roche-en-Ardenne/@50.1794403,5.5830503,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47c038d11f6451a7:0x7711b4f3526b305!2m2!1d5.5830633!2d50.1794403?entry=ttu">Directions</a>
+                    </li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@socratesbe.org">info@socratesbe.org</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section id="coc" class="section">
@@ -1143,16 +1075,16 @@
                 <p><small class="text-alt">A conference for <span class="highlight">everyone</span></small></p>
 
                 <p>SoCraTes BE follows the Conference Code of Conduct laid out by several conference organisers around the globe. We ask that you read
-                    the full version before attending. You are required to cooperate with the code throughout the event to help ensure a safe environment
-                    for everybody.</p>
+                   the full version before attending. You are required to cooperate with the code throughout the event to help ensure a safe environment
+                   for everybody.</p>
                 <p>Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, age, sexual
-                    orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants
-                    in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and
-                    other online media. Conference participants violating these rules may be sanctioned or expelled from the conference <b>without a refund</b>
-                    at
-                    the discretion of the conference organisers.</p>
+                   orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants
+                   in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, X (Twitter) and
+                   other online media. Conference participants violating these rules may be sanctioned or expelled from the conference <b>without a refund</b>
+                   at
+                   the discretion of the conference organisers.</p>
                 <a href="http://confcodeofconduct.com/" target="_blank" class="link-btn" style="margin: 30px 0 0" target="_blank" rel="noopener noreferrer">Read
-                    more</a>
+                                                                                                                                                            more</a>
             </article>
         </div>
     </div>
@@ -1223,7 +1155,7 @@
                             class="fa-brands fa-github"></span></a></li>
                 </ul>
 
-                <p class="text-alt"><small>All Rights Reserved © 2023</small></p>
+                <p class="text-alt"><small>All Rights Reserved © 2024</small></p>
             </div>
 
         </div>
