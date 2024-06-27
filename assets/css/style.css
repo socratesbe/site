@@ -5453,9 +5453,6 @@ button[type="submit"] .loading {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  .venue-img-bg {
-    height:25%;
-  }
 }
 @media (max-width: 480px) {
   .extra-heading {
