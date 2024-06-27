@@ -4254,6 +4254,9 @@ button[type="submit"] .loading {
   }
 }
 @media (max-width: 767px) {
+  .contacts-wrapper{
+    padding-top: 30px;
+  }
   .contacts-on-map {
     -webkit-transform: none;
     -moz-transform: none;
@@ -5328,6 +5331,13 @@ button[type="submit"] .loading {
 .form-register .checkbox-wrapper label {
   line-height: 1.6;
 }
+.venue-img-bg {
+  opacity: 0.2;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
 .venue-section .venue-hotel-logo {
   margin: 0 0 43px;
   display: block;
@@ -5473,8 +5483,14 @@ button[type="submit"] .loading {
   }
 }
 
-.book-tickets-now {
+.book-tickets-now,
+.location-in-header {
   cursor: pointer;
+}
+
+.location-in-header a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .book-tickets-now a {
