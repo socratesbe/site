@@ -1,0 +1,316 @@
+/* Modernize SoCraTes BE Look & Feel */
+
+:root {
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --text-color: #333;
+    --light-text: #666;
+    --bg-light: #f8f9fa;
+    --white: #ffffff;
+    --border-radius: 8px;
+    --transition: all 0.3s ease;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+body {
+    font-family: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #222;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Subtle overlay */
+}
+
+.hero-heading-top {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-heading-top h1.extra-heading {
+    font-size: 5rem;
+    text-transform: none;
+    letter-spacing: -2px;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero-heading-top h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.hero-heading-top h4 {
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.book-tickets-now {
+    margin-top: 2rem;
+}
+
+.book-tickets-now .highlight.heading {
+    background: var(--primary-color) !important;
+    color: white !important;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+    transition: var(--transition);
+    border: none;
+    text-decoration: none !important;
+}
+
+.book-tickets-now .highlight.heading:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+    background: var(--primary-hover);
+}
+
+/* Header & Navigation */
+.header {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.navigation-item a {
+    color: #444 !important;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.navigation-item a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* Sections */
+.section {
+    padding: 80px 0;
+}
+
+.section-icon {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs-wrapper .nav-tabs {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.tabs-wrapper .nav-tabs > li {
+    margin: 0;
+    float: none;
+}
+
+.tabs-wrapper .nav-tabs > li > a {
+    border: 1px solid #eee !important;
+    border-radius: 50px !important;
+    padding: 10px 25px !important;
+    background: white;
+    color: var(--light-text);
+    transition: var(--transition);
+}
+
+.tabs-wrapper .nav-tabs > li.active > a,
+.tabs-wrapper .nav-tabs > li > a:hover {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border-color: var(--primary-color) !important;
+    box-shadow: var(--shadow);
+}
+
+/* Images */
+.img-responsive {
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+/* Sponsors */
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.sponsor img {
+    max-width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.sponsor img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Sponsor Packages */
+.sponsor-packages {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.package-column {
+    background: white;
+    padding: 40px !important;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    max-width: 400px;
+}
+
+.package-column:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-hover);
+}
+
+.package-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px !important;
+    color: var(--primary-color);
+}
+
+.package-price {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.package-detail ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.package-detail li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.check-icon {
+    color: #28a745;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* Venue & Map */
+.contacts-on-map {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border-radius: var(--border-radius);
+    padding: 30px !important;
+    box-shadow: var(--shadow-hover);
+}
+
+.contacts-on-map h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contacts-on-map ul.list {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts-on-map ul.list li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.contacts-on-map ul.list i {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+/* Footer (assuming there is one) */
+footer {
+    background: #222;
+    color: #ccc;
+    padding: 60px 0;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 50px;
+    text-transform: none;
+    font-weight: 600;
+    padding: 12px 30px;
+    transition: var(--transition);
+}
+
+/* Utility */
+.highlight {
+    color: var(--primary-color);
+}
+
+.date-overlap-note {
+    max-width: 550px;
+    margin: 40px auto;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    padding: 20px 25px;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-out 0.5s both;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.date-overlap-note strong {
+    color: #fff;
+    font-weight: 600;
+}
+
