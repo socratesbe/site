@@ -160,27 +160,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow);
 }
 
-/* Sponsors */
-.sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    align-items: center;
-}
 
-.sponsor img {
-    max-width: 200px;
-    height: auto;
-    filter: grayscale(100%);
-    opacity: 0.6;
-    transition: var(--transition);
-}
-
-.sponsor img:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-    transform: scale(1.05);
+/* Logos */
+.logo img,
+.retina-show,
+.retina-hide {
+    transition: none !important;
+    transform: none !important;
 }
 
 /* Sponsor Packages */
