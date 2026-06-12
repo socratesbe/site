@@ -154,6 +154,14 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: var(--shadow);
 }
 
+.tabs-wrapper .nav-tabs h6.heading-alt {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    white-space: nowrap;
+}
+
 /* Images */
 .img-responsive {
     border-radius: var(--border-radius);
